@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <div>
+        <h3> Task 1 : Create a HTML document with a image and add a button below the image, when the user clicks on the button, the image should be removed from the DOM using JavaScript.</h3>
+    </div>
+    <img id="photo" src="./prabhas.jpg" height="400" width="400">
+    <div>
+        <button onclick="Task1()">Remove</button>
+    </div>
+    <style>
+        button{
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        body{
+            background: royalblue;
+        }
+    </style>
+    <script>
+        function Task1() {
+    let Task1 = document.querySelector("#photo")
+    Task1.remove()
+}
+    </script>
+    
+    <!-- <script src="./index.js"></script> -->
+</body>
+</html>
