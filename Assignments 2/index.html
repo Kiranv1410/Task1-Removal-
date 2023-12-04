@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <div>
+        <h3>Create. aHTML document and add a image to it, below the image add. abutton that says " Hide Aboe Element. " When the button is clicked, the image should be hidden from the dom, it should not be deleted, it should only be hidden.</h3>
+    </div>
+    <img src="https://images.pexels.com/photos/220213/pexels-photo-220213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="500" height="450" id="photo"  >
+    <div>
+        <button onclick="Task2()">Hide Above Element</button>
+    </div>
+
+    <script>
+        function Task2() {
+            let Task2 = document.querySelector("#photo")
+            Task2.style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>
